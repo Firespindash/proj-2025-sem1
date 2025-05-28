@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="author" content="Grupo do Lucas A."/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="language" content="pt-br"/>
+  <meta name="description" content="Implementação do Projeto de Desenvolvimento de Software, Turma 11"/>
+  <meta name="robots" content="index,nofollow"/>
+  <title>SCE</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <header>
+    <div id="cont-header">
+      <img src="img/logo.png" alt="Logo da Alpha Tech" id="logo"/>
+      <nav>
+        <a href="#sobre">SOBRE</a>
+        <a href="#autores">AUTORES</a>
+        <a href="https://github.com/Firespindash/proj-2025-sem1">GITHUB</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Sistema de Controle de Estoque</h1>
+    <div id="inicio">
+      <p>Alpha Tech - Simplificando estoques e maximizando resultados.
+        Na Alpha Tech, unimos inovação, eficiência e tecnologia para transformar a forma como empresas gerenciam seus estoques. Desenvolvemos um sistema inteligente, intuitivo e seguro, que automatiza processos, reduz perdas e oferece controle total sobre cada produto - do recebimento à saída.<br>
+        Nosso objetivo é ser mais do que um sistema de gestão: queremos ser o parceiro estratégico das empresas que buscam crescimento sustentável, agilidade operacional e tomada de decisões com base em dados confiáveis. Com integração total de plataformas e ERPs, nossa solução se adapta à sua realidade escala com o seu negócio.</p>
+    </div>
+    <button type="button" id="saiba-mais" onclick="abrirModal()">Saiba Mais</button>
+    <div id="modal">
+      <div id="modal-content">
+        <span class="close-btn" onclick="fecharModal()">&times;</span>
+        <h2>Por que escolher a Alpha Tech?</h2>
+        <p>A gestão de estoque vai além de armazenar produtos. É sobre previsibilidade, economia e estratégia. A Alpha Tech entrega uma solução completa que garante:</p>
+        <ul>
+          <li>Monitoramento preciso de validade e número de lote;</li>
+          <li>Redução significativa de perdas e desperdícios;</li>
+          <li>Relatórios inteligentes e visão estratégica em tempo real;</li>
+          <li>Interface amigável, com implementação rápida e suporte especializado.</li>
+        </ul>
+        <br>
+        <p>Mesmo diante de desafios como o mercado competitivo, seguimos com um propósito claro: fornecer tecnologia de ponta e atendimento personalizado para elevar o padrão da gestão de estoque no Brasil.</p>
+        <a id="link-vendas" href="https://colab.research.google.com/drive/1qjTNoNW0aSea22WdsjSFersppa-B8nBw">“Descubra como simplificar estoques e levar sua empresa ao próximo nível com a Alpha Tech. Fale com nossa equipe e transforme sua gestão hoje mesmo.”</a>
+      </div>
+    </div>
+  </main>
+  <section id="sobre" class="conteudo fundo-legal">
+    <div class="sobre">
+      <h2>Quem Somos</h2>
+      <p>Somos uma empresa movida pela inovação e guiada por um propósito claro: simplificar a gestão de estoques e maximizar resultados. Em um mercado competitivo, onde cada minuto e cada produto contam, oferecemos tecnologia de ponta para empresas que se recusam a operar no improviso.</p>
+      <p>Nosso sistema vai além do básico: automatiza processos, elimina erros humanos, monitora validade e número de lote com precisão cirúrgica e integra com ERPs para garantir eficiência real, não promessa de marketing.</p>
+      <p>Especializados em criar soluções intuitivas, que se adaptam à realidade de cada cliente — da pequena empresa ao grande centro de distribuição. Entendemos que gestão não é só sobre controle, mas sobre estratégia, redução de desperdícios e crescimento sustentável.</p>
+      <p>Nosso diferencial está na entrega. Unimos tecnologia, atendimento personalizado e compromisso com o resultado para sermos mais que uma ferramenta: somos um parceiro de evolução.</p>
+      <p>Na Alpha Tech, você encontra mais do que um sistema — encontra um time pronto para levar sua empresa ao próximo nível.</p>
+    </div>
+  </section>
+  <section id="autores" class="autores fundo-legal">
+    <h2>Autores</h2>
+    <div class="lista-autores">
+      <div class="autor">
+        <img src="img/fotos/lucas.jpg" alt="Foto do Gerente">
+        <h3>Lucas</h3>
+        <p>Responsável por Liderar o Grupo</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/luiz.jpg" alt="Foto do Subgerente">
+        <h3>Luiz</h3>
+        <p>Responsável por Programar/Auxiliar o Líder</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/samuca.jpg" alt="Foto do Gerente de Marketing">
+        <h3>Samuel</h3>
+        <p>Responsável pelo Marketing</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/g.jpg" alt="Foto do Gerente do BD">
+        <h3>Geovane</h3>
+        <p>Responsável pelo Banco de Dados</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/enzo.jpg" alt="Foto do Enzo">
+        <h3>Enzo</h3>
+        <p>Responsável por Programar o Site</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/antonio.jpg" alt="Foto do Antonio De Óculos">
+        <h3>Antonio</h3>
+        <p>Responsável pela Paleta e Design</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/kawan.jpg" alt="Foto do Kawan">
+        <h3>Kawan</h3>
+        <p>Responsável pelos Textos do Marketing</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/edu.jpg" alt="Foto do Edu">
+        <h3>Eduardo</h3>
+        <p>Responsável pelos Inserts/Validação em C</p>
+      </div>
+      <div class="autor">
+        <img src="img/fotos/pedro.jpg" alt="Foto do Antonio Pedro">
+        <h3>Antonio Pedro</h3>
+        <p>Responsável pelo Modelo Conceitual e Lógico do BD</p>
+      </div>
+    </div>
+  </section>
+  <footer class="fundo-legal">
+     <p id="fake-copyright">&copy; 2025 AlphaTech. Todos os direitos reservados.</p>
+     <p id="uni-referencia">Universidade Nove De Julho - UNINOVE</p>
+     <p id="info-contato">Contato: lucas.adriel.lima@uni9.edu.br</p>
+  </footer>
+</body>
+</html>

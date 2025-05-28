@@ -1,0 +1,8 @@
+# Respeitar a ordem
+Cinza - #d4cdc5
+Azul Primário - #5b88a5
+Branco - #f4f4f2
+Preto - #191013
+Azul Segundário - #243169
+Azul Terciário - #3a3aad
+Ciano - #50b0ac

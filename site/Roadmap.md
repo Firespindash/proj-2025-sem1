@@ -1,0 +1,12 @@
+- [ ] Criar site
+  - [ ] Criar hero page
+  - [ ] Criar a parte Sobre do site
+  - [ ] Criar parte de Autores do site
+- [ ] Criar programa
+  - [ ] Criar interface
+  - [ ] Criar gerador de senhas
+  - [ ] Criar lógica interna 
+- [ ] Criar integração com o banco de dados
+  - [ ] Chamada de escrita
+  - [ ] Chamada de leitura
+  - [ ] Chamada de remoção
